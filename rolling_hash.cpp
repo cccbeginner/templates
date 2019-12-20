@@ -3,7 +3,7 @@ class strhash{
 	private:
 		vector<long long> hash, pows;
 		const long long mod = 1073676287;
-    public:
+	    public:
 		strhash(string s, int prm=0xdefaced){
 			hash.emplace_back(0);
 			pows.emplace_back(1);
