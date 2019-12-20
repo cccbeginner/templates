@@ -1,4 +1,3 @@
-```cpp
 //rolling hash
 class strhash{
 	private:
@@ -25,4 +24,3 @@ class strhash{
 			return (hash[r]+mod-hash[l]*pows[r-l]%mod)%mod;
 		}
 };
-```
