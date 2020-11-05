@@ -1,3 +1,7 @@
+#define pii pair<int,int>
+#define x first
+#define y second
+
 int cross(pii a, pii o, pii b){
 	return (o.x-a.x) * (b.y-o.y) - (o.y-a.y) * (b.x-o.x);
 }
